@@ -1,0 +1,33 @@
+{
+  "name": "conversionamount-discount",
+  "version": "1.0.0",
+  "description": "discount and amount converstion",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "keywords": [
+    "Microservice"
+  ],
+  "author": "kashif",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "bcrypt": "^5.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.18.2",
+    "express-joi-validation": "^5.0.1",
+    "helmet": "^3.23.3",
+    "joi": "^17.9.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^5.13.20",
+    "morgan": "^1.10.0",
+    "node-cache": "^5.1.2",
+    "winston-daily-rotate-file": "^5.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^10.2.0",
+    "nodemon": "^1.14.9"
+  }
+}
