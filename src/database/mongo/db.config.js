@@ -3,7 +3,7 @@
 let CONFIG = require('../../configs/config')(process.env.CONFIG_ARG);
 const mongoose = require("mongoose");
 module.exports = async () => {
-  await mongoose.connect(process.env.MONGO_URL, {
+  await mongoose.connect(`${process.env.MONGO_URL} || mongodb+srv://Dinesh:Dinesh1708@cluster0.hg9p0.mongodb.net/currencyExchange?retryWrites=true&w=majority&appName=Cluster0`, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useFindAndModify: false,
